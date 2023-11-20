@@ -1,0 +1,231 @@
+html{
+    height:100%;
+}
+body{
+    background-image: radial-gradient(#717171dd,hsl(0, 0%, 23%));
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.container{
+    width: 1024px;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    min-height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#centeredhead{
+   text-align: center;
+   width:100%;
+   background-color: rgba(240, 248, 255, 0);
+   margin-left: auto;
+   margin-right: auto;
+}
+main{
+    min-height:250px;
+    display:flex;
+    align-items: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.indexmain{
+    display:block;
+    margin-top: 15px;
+    background-position:center;
+    text-align: center;
+}
+.cards{
+    min-height:300px;
+    max-height: 400px;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.cards1{
+    background-image: radial-gradient(#f7f76afb,hsl(46, 91%, 36%));
+    background-position: top;
+    min-height: 200px;
+    width: 31%;
+    padding-bottom: 10px;
+    border-radius: 40px 6px;
+}
+.cards2{
+    background-image: radial-gradient(#131313dd,hsl(0, 0%, 23%));
+    background-position: top;
+    min-height: 200px;
+    width: 31%;
+    border-radius: 6px 40px;
+}
+.cards3{
+    background-image: radial-gradient(#f7f76afb,hsl(46, 91%, 36%));
+    background-position: top;
+    min-height: 200px;
+    width: 31%;
+    border-radius: 40px 6px;
+}
+.herobox1{
+    flex: 2
+}
+.herobox2{
+    flex: 1
+}
+div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.herobox2 img{
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.465);
+}
+section img{
+    max-width: 65%;
+    max-height: 65%;
+   
+}
+h1{
+    font-size: 2.36rem;
+    font-weight:bold;
+    padding-bottom: 15px;
+    text-shadow: 0px 2px 2px black;
+}
+h1 p{
+    line-height: 2.1rem;
+    margin-bottom: 5px;
+}
+p{
+    line-height: 2.3rem;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.442);
+}
+div a{
+    color:white;
+}
+nav{
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    background-image: radial-gradient(#f7f76afb,hsl(46, 91%, 36%));
+    border-radius: 2px 13px 2px 13px;
+    margin-bottom: 5px;
+}
+nav a:hover{
+    background-color:whitesmoke;
+    border-radius: 100px;
+    max-height: 100%;
+}
+nav a{
+    text-decoration: none;
+    font-size: 2.2rem;
+    padding: 10px;
+    color: black;
+}
+header h1{
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+.mybutton{
+    background-color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.872);
+    color: rgba(0, 0, 0, 0.931);
+}
+.mybutton a{
+    display:inline-block;
+    color:#717171dd;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 10px black;
+}
+section h1{
+    color: crimson;
+    font-size: 2.6rem;
+}
+.indexp{
+    text-align: center;
+}
+table, th, tr, td{
+    width: 100%;
+    border:1px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-size: 2.0rem;
+    border-radius: 9px;
+    border-color: #f7f76afb;
+    text-shadow: 0px 2px 2px black;
+}
+td{
+    padding: 5px;
+}
+aside{
+    display: inline;
+}
+.cards4{
+    float:right;
+    background-image: radial-gradient(#131313dd,hsl(0, 0%, 23%));
+    background-position: top;
+    max-height: 250px;
+    min-width: 30%;
+    max-width: 35%;
+    border-radius: 6px 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 35px;
+    font-size: 1.1rem;
+    text-align:center;
+    position:relative;
+    top: 15px;
+
+   
+}
+li{
+    list-style: circle;
+}
+
+ol li{
+    list-style:decimal;
+}
+.absolute{
+    position: absolute;
+    top:40px;
+    left: 35px;
+    bottom: 35px;
+    max-width:90%
+}
+#rolltide{
+    font-weight: bolder;
+    font-size: 90px;
+}
+
+section{
+    background-color: rgba(95, 79, 79, 0.484);
+    text-align: center;
+    max-width: 50%;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+}
+form{
+    text-align: left;
+}
+header section{
+    background-color: rgba(95, 79, 79, 0);
+    text-align: center;
+    max-width: 50%;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 29px;
+}
